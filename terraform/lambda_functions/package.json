@@ -1,0 +1,8 @@
+{
+  "name": "mbgolfers2-lambda-functions",
+  "version": "1.0.0",
+  "description": "Lambda functions for MBGolfers2 API",
+  "dependencies": {
+    "aws-sdk": "^2.1400.0"
+  }
+}

@@ -1,0 +1,22 @@
+# Terraform variables for MBGolfers2
+# Environment configuration
+
+# Basic Configuration
+aws_region  = "us-east-1"
+environment = "dev"
+app_name    = "mbgolfers2"
+
+# Optional: Custom domain name
+# domain_name = "dev.yourdomain.com"
+
+# Monitoring and Backup
+enable_monitoring = true
+enable_backup     = true
+
+# Additional tags
+tags = {
+  Project     = "MBGolfers2"
+  Owner       = "Development Team"
+  Environment = "dev"
+  ManagedBy   = "Terraform"
+}
